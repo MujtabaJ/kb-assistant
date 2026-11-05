@@ -1,0 +1,15 @@
+# core
+numpy>=1.26
+pypdf>=4.0
+# api
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+# providers (only needed for real models)
+openai>=1.30
+anthropic>=0.30
+# postgres store (only needed when KB_STORE=pgvector)
+psycopg[binary]>=3.1
+pgvector>=0.2.5
+# dev
+pytest>=8.0
